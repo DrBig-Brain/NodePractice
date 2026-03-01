@@ -12,6 +12,9 @@ What you'll find here
 - `http.js` — minimal HTTP server examples.
 - `packages.js` — notes/examples related to package usage.
 - `path_module.js` — examples for the `path` module.
+- `eventLoop.js` — notes/demo for understanding the Node event loop.
+- `asyncBlocking.js` — experiments showing blocking vs non-blocking async code.
+- `asyncPattern.js` — various asynchronous patterns and utilities.
 - `content/` — sample files used by the examples (first.txt, second.txt, subfolder/text.txt).
 
 How to use
@@ -20,6 +23,6 @@ How to use
 
 Notes
 - This is a learning repo — expect small, focused demos rather than production code.
-- Use this as a playground to practice callbacks, promises, streams, and basic HTTP handling.
+- Use this as a playground to practice callbacks, promises, streams, basic HTTP handling, event-loop behavior, and async patterns.
 
 If you'd like, I can add a few runnable examples or npm scripts to make testing easier.
