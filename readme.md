@@ -15,11 +15,15 @@ What you'll find here
 - `eventLoop.js` — notes/demo for understanding the Node event loop.
 - `asyncBlocking.js` — experiments showing blocking vs non-blocking async code.
 - `asyncPattern.js` — various asynchronous patterns and utilities.
-- `content/` — sample files used by the examples (first.txt, second.txt, subfolder/text.txt).
+- `asyncPromise.js` — promise-based examples.
+- `asyncAwait.js` — examples using async/await syntax.
+- `httpAndStream.js` — HTTP server demonstration using streams.
+- `createBigfile.js` — utility to generate a large text file for testing.
+- `content/` — sample files used by the examples (first.txt, second.txt, subfolder/text.txt, big.txt, result-*.txt).
 
 How to use
-- Read the examples and run them with Node (e.g., `node http.js`).
-- Modify files in `content/` and observe how the scripts read/write them.
+- Read the examples and run them with Node (e.g., `node http.js` or `node httpAndStream.js`).
+- Modify files in `content/`, generate a large file with `node createBigfile.js`, and observe how the scripts read/write them.
 
 Notes
 - This is a learning repo — expect small, focused demos rather than production code.
